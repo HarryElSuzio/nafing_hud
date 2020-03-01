@@ -1,0 +1,100 @@
+#health {
+    position: absolute;
+    left: 1.490%;
+    bottom: 0.8%;
+    width: 6.820%;
+    height: 0.50%;
+    padding: 0;
+    border: 1px solid black;
+    float:left;
+    background:#545454;
+}
+#armor {
+    position: absolute;
+    left: 8.65%;
+    bottom: 0.8%;
+    width: 3.250%;
+    height: 0.50%;
+    padding: 0;
+    border: 1px solid black;
+    float:left;
+    background:#545454;
+}
+#stress {
+    position: absolute;
+    left: 12.20%;
+    bottom: 0.8%;
+    width: 3.250%;
+    height: 0.50%;
+    padding: 0;
+    border: 1px solid black;
+    float:left;
+    background:#545454;
+}
+#hunger {
+    position: absolute;
+    left: 1.490%;
+    bottom: 0.1%;
+    width: 4.440%;
+    height: 0.50%;
+    padding: 0;
+    border: 1px solid black;
+    float:left;
+    background:#545454;
+}
+#thirst {
+    position: absolute;
+    left: 6.25%;
+    bottom: 0.1%;
+    width: 4.440%;
+    height: 0.50%;
+    padding: 0;
+    border: 1px solid black;
+    float:left;
+    background:#545454;
+}
+#drunk {
+    position: absolute;
+    left: 11.05%;
+    bottom: 0.1%;
+    width: 4.440%;
+    height: 0.50%;
+    padding: 0;
+    border: 1px solid black;
+    float:left;
+    background:#545454;
+}
+
+
+
+#boxHealth, #boxArmor, #boxDrunk, #boxHunger, #boxThirst, #boxStress {
+    background: #73be73;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+#boxHealth {
+    background: #fc0015;
+}
+#boxArmor {
+    background: #cbceb6;
+}
+#boxHunger {
+    background: #5e3602;
+}
+#boxThirst {
+    background: #047aa1;
+}
+#boxDrunk {
+    background: #a16dc5;
+}
+#boxStress {
+    background: #700061;
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}

@@ -1,0 +1,18 @@
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`, `price`) VALUES
+('sandwich', 'Kanapka', 15, 0, 1, 100),
+('sausage', 'Kiełbaska', 10, 0, 1, 100),
+('chips', 'Frytki', 15, 0, 1, 100),
+('crisps', 'Chipsy', 5, 0, 1, 100),
+('hotdog', 'Hot-Dog', 15, 0, 1, 100),
+('burger', 'Burger', 15, 0, 1, 100),
+('pizza', 'Kawałek pizzy', 15, 0, 1, 100),
+('mrefood', 'MRE', 5, 0, 1, 100),
+('donut', 'Donut', 20, 0, 1, 100),
+('chocolate', 'Czekolada', 10, 0, 1, 100),
+('cupcake', 'Babeczka', 10, 0, 1, 100),
+('cake', 'Kawałek ciasta', 10, 0, 1, 100),
+('apple', 'Jabłko', 100, 0, 1, 100),
+('raspberries', 'Maliny', 100, 0, 1, 100),
+('orange', 'Pomarańcza', 100, 0, 1, 100),
+('banana', 'Banan', 100, 0, 1, 100),
+('cigarette', 'Papieros', 15, 0, 1, 100);
